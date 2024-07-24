@@ -5,9 +5,9 @@ function M.setup(opts)
 
    vim.keymap.set("n", "<Leader>h", function()
       if opts.name then
-         print("hello, " .. opts.name)
+         print("Shibby, " .. opts.name)
       else
-         print("hello")
+         print("Shibby")
       end
    end)
 end
